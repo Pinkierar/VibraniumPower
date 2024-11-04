@@ -11,6 +11,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.pinkierar.vibranium_power.block.ModBlocks;
+import net.pinkierar.vibranium_power.item.ModCreativeModeTabs;
+import net.pinkierar.vibranium_power.item.ModItems;
 import org.slf4j.Logger;
 
 @Mod(VibraniumPowerMod.MOD_ID)
@@ -20,6 +23,11 @@ public class VibraniumPowerMod {
 
     public VibraniumPowerMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "vibranium_power:block/vibranium_block"
+    }
+  }
+}
