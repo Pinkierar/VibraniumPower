@@ -16,12 +16,12 @@ import net.pinkierar.vibranium_power.item.ModCreativeModeTabs;
 import net.pinkierar.vibranium_power.item.ModItems;
 import org.slf4j.Logger;
 
-@Mod(VibraniumPowerMod.MOD_ID)
-public class VibraniumPowerMod {
+@Mod(VibraniumPower.MOD_ID)
+public class VibraniumPower {
     public static final String MOD_ID = "vibranium_power";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public VibraniumPowerMod(FMLJavaModLoadingContext context) {
+    public VibraniumPower(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
         ModCreativeModeTabs.register(modEventBus);

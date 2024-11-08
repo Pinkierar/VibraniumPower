@@ -1,0 +1,34 @@
+[06Nov2024 12:26:37.216] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Pinkierar\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.11, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, vibranium_power, --all, --output, C:\Users\Pinkierar\IdeaProjects\forge-1.20.1-47.3.11-mdk\src\generated\resources, --existing, C:\Users\Pinkierar\IdeaProjects\forge-1.20.1-47.3.11-mdk\src\main\resources]
+[06Nov2024 12:26:37.221] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[06Nov2024 12:26:37.318] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\Pinkierar\IdeaProjects\forge-1.20.1-47.3.11-mdk\run-data\config\fml.toml is not correct. Correcting
+[06Nov2024 12:26:37.319] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[06Nov2024 12:26:37.320] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[06Nov2024 12:26:37.320] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[06Nov2024 12:26:37.320] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[06Nov2024 12:26:37.335] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[06Nov2024 12:26:37.376] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Pinkierar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[06Nov2024 12:26:37.658] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Pinkierar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.11\427f703e065645e6ab0d183bfaee6253f474393d\javafmllanguage-1.20.1-47.3.11.jar is missing mods.toml file
+[06Nov2024 12:26:37.660] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Pinkierar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.11\f59825d2e5d797a1bb3699876861d9f5cd616ad0\lowcodelanguage-1.20.1-47.3.11.jar is missing mods.toml file
+[06Nov2024 12:26:37.663] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Pinkierar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.11\6624469b892cf7349addc8c7272ba0f9c1628e3f\mclanguage-1.20.1-47.3.11.jar is missing mods.toml file
+[06Nov2024 12:26:37.665] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Pinkierar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.11\19742efc9b2d4063f19579d80f99579725e034eb\fmlcore-1.20.1-47.3.11.jar is missing mods.toml file
+[06Nov2024 12:26:37.732] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[06Nov2024 12:26:38.725] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Pinkierar\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, vibranium_power, --all, --output, C:\Users\Pinkierar\IdeaProjects\forge-1.20.1-47.3.11-mdk\src\generated\resources, --existing, C:\Users\Pinkierar\IdeaProjects\forge-1.20.1-47.3.11-mdk\src\main\resources]
+[06Nov2024 12:26:38.996] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [vibranium_power]
+[06Nov2024 12:26:42.513] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.11, for MC 1.20.1 with MCP 20230612.114412
+[06Nov2024 12:26:42.516] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.11 Initialized
+[06Nov2024 12:26:43.034] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Pinkierar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.11_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.11_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[06Nov2024 12:26:43.034] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Pinkierar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.11_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.11_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[06Nov2024 12:26:43.222] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[06Nov2024 12:26:43.226] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 3 ms
+[06Nov2024 12:26:43.226] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[06Nov2024 12:26:43.277] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 51 ms
+[06Nov2024 12:26:43.278] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: vibranium_power
+[06Nov2024 12:26:43.400] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: vibranium_power finished after 121 ms
+[06Nov2024 12:26:43.400] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: vibranium_power
+[06Nov2024 12:26:43.403] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: vibranium_power finished after 2 ms
+[06Nov2024 12:26:43.403] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id vibranium_power
+[06Nov2024 12:26:43.415] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id vibranium_power finished after 11 ms
+[06Nov2024 12:26:43.415] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id vibranium_power
+[06Nov2024 12:26:43.416] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id vibranium_power finished after 0 ms
+[06Nov2024 12:26:43.416] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 194 ms
+[06Nov2024 12:26:43.424] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 8, old count: 0, new count: 9, removed stale: 0, written: 8

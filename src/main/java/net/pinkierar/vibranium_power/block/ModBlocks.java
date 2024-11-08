@@ -9,14 +9,14 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.pinkierar.vibranium_power.VibraniumPowerMod;
+import net.pinkierar.vibranium_power.VibraniumPower;
 import net.pinkierar.vibranium_power.item.ModItems;
 
 import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, VibraniumPowerMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, VibraniumPower.MOD_ID);
 
     public static final RegistryObject<Block> VIBRANIUM_BLOCK =
             registerBlock("vibranium_block",

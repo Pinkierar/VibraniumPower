@@ -7,12 +7,12 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
-import net.pinkierar.vibranium_power.VibraniumPowerMod;
+import net.pinkierar.vibranium_power.VibraniumPower;
 import net.pinkierar.vibranium_power.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, VibraniumPowerMod.MOD_ID);
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, VibraniumPower.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> VIBRANIUM_POWER_TAB =
             CREATIVE_MODE_TABS.register("vibranium_power_tab",
